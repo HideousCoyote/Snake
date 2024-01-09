@@ -10,7 +10,6 @@ class Scoreboard(Turtle):
         self.score = 0
         with open("my_score.txt") as file:
             self.high_score = int(file.read())
-        self.high_score = 0
         self.color("white")
         self.penup()
         self.goto(0, 265)
